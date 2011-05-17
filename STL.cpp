@@ -6,7 +6,7 @@ int main(int argc, char* argv[])
 	map<string, string> PhoneBook;
 	int i = 0, n = 0;
 	string name, number;
-	cout << "\n\nNumber of contacts:"; cin>>n;
+	cout << "\nNumber of contacts:"; cin>>n;
 	cin.ignore();
 	for(i = 0; i < n; i++)
 	{
